@@ -5,5 +5,6 @@ module pe.edu.upeu.repasos1g3 {
     requires org.controlsfx.controls;
 
     opens pe.edu.upeu.repasos1g3 to javafx.fxml;
-    exports pe.edu.upeu.repasos1g3;
+    V
+
 }

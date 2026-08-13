@@ -9,6 +9,10 @@ public class arreglosVM {
             System.out.println(m);
         }
         mes[11]="";
+        for (String m:mes){
+            if(!m.equals(""))
+            System.out.println(m);
+        }
     }
     public static void main(String[] args){
        meses();
