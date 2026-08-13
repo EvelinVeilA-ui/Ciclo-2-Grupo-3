@@ -18,13 +18,13 @@ public class arreglosVM {
         for(int i=0;i<m.length;i++){
             for(int j=0;j<m[0].length;j++){
                 if(m[i][j]!=0){
-                    System.out.println(m[i][j]+"\t");
+                    System.out.print(m[i][j]+"\t");
                 }
                 else{
-                    System.out.println(" \t");
+                    System.out.print(" \t");
                 }
             }
-            System.out.println("");
+            System.out.print("");
         }
     }
     public static void main(String[] args){
