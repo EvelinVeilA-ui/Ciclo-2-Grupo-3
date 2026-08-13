@@ -37,10 +37,25 @@ public class arreglosVM {
         }
         return matriz;
     }
+    public static int [][] matrizF11(int tamano,int numl){
+        int matriz[][]=new int[tamano][tamano];
+        for (int f=0;f<matriz.length;f++){
+            for (int c=matriz[0].length-1-f;c>=0;c--){
+                matriz[f][c]=numl;
+                numl++;
+            }
+        }
+        return matriz;
+    }
+
     public static void main(String[] args){
-       //meses();
-       // int [][] m={{1,2,6},{3,4,2},{5,6,7}};
-       // imprimirmatris(m);
+        meses();
+        System.out.println("");
+        int [][] m={{1,2,6},{3,4,2},{5,6,7}};
+        imprimirmatris(m);
         imprimirmatris(matrizF5(5,1));
+        System.out.println("");
+        imprimirmatris(matrizF11(5,1));
+
     }
 }
