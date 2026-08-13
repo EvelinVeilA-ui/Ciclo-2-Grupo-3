@@ -24,7 +24,7 @@ public class arreglosVM {
                     System.out.print(" \t");
                 }
             }
-            System.out.print("");
+            System.out.println("");
         }
     }
     public static void main(String[] args){
